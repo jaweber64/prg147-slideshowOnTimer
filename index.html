@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slide Show With Timer</title>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-indigo.css">
+    <link rel="stylesheet" href="mystyles.css">
+</head>
+
+<body>
+
+<div id="container" class="w3-panel w3-round-xlarge mybdr">
+    <header class="w3-panel w3-round head" >
+        <h1>More Arrays in Javascript - A Slide Show</h1>
+    </header>
+
+    <div class="w3-panel w3-round-xlarge mybdr">
+        <h2>Around My Yard</h2>
+
+        <p><a href="#"><img id="playpause" src="images/play.png" width="40" height="40" onclick = slidecontrol()></a></p>
+        <div id ="slideshow">
+            <p>&nbsp;</p>
+            <h3 id= "title">Pink Clematis</h3>
+            <img id = "main_image" src="images/JSSlideShow01.png">
+            <p id="caption"> A beautiful climbing flower, six inches across - growing along the wall below our deck.</p>
+        </div><!--end slideshow-->
+        <p>&nbsp;</p>
+        <script src="slideshow.js"></script>
+
+    </div>
+</div><!-- end container -->
+</body>
+</html>
